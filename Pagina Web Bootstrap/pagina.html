@@ -3,13 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tecnología </title>
-    
+    <title>Tecnología y Gadgets</title>
+    <!-- Agrega el enlace a Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Estilos personalizados -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: #007bff;
+        }
+        .navbar-brand {
+            color: #fff;
+        }
+        .nav-link {
+            color: #fff;
+        }
+        h2 {
+            color: #343a40;
+        }
+        p {
+            color: #6c757d;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-   
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">Tecnología</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -17,63 +41,61 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#moviles">Móviles</a>
+                    <a class="nav-link" href="Móviles">Móviles</a>
+
+
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#ordenadores">Ordenadores</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#sistemas">Sistemas Operativos</a>
-                    <div class="container mt-5">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="card h-100">
-                                    <img src="path/to/space-travel.jpg" alt="Space travel" class="card-img-top" height="200">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Space Talk: Bridging Communication Gaps</h5>
-                                        <p class="card-text">As we venture into space, new dialects may emerge, requiring advanced translation technology.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card h-100">
-                                    <img src="path/to/vision-pro.jpg" alt="Vision Pro" class="card-img-top" height="200">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Vision Pro: Reviving 3D Content</h5>
-                                        <p class="card-text">These devices could bring back the era of 3D content, offering an immersive experience for users.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="card h-100">
-                                    <img src="path/to/chip-fab.jpg" alt="Chip fabrication" class="card-img-top" height="200">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Cutting-Edge Chip Fabrication</h5>
-                                        <p class="card-text">The most advanced chip fabrication machine in the world showcases incredible complexity and technology.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <a class="nav-link" href="#sistemas-operativos">Sistemas Operativos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#hardware">Hardware</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    
-    <div class="container mt-4">
-        <h1>Bienvenido a nuestra página de tecnología</h1>
-        
-    </div>
-
-    
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="img/espacio.jpeg" alt="Viaje al espacio" class="card-img-top" height="200">
+                        <div class="card-body">
+                            <h5 class="card-title">Space Talk: Cerrando las brechas de comunicación</h5>
+                            <p class="card-text">A medida que nos aventuramos en el espacio, pueden surgir nuevos dialectos que requieran tecnología de traducción avanzada.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="img/apple-vision.jpeg" alt="Apple Vision Pro" class="card-img-top" height="200">
+                        <div class="card-body">
+                            <h5 class="card-title">Apple Vision Pro: Reviviendo el contenido 3D</h5>
+                            <p class="card-text">Estos dispositivos podrían traer de vuelta la era del contenido 3D, ofreciendo una experiencia inmersiva para los usuarios.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="img/chip.jpeg" alt="Chip fabrication" class="card-img-top" height="200">
+                        <div class="card-body">
+                            <h5 class="card-title">La Fabricación de chips de vanguardia</h5>
+                            <p class="card-text">La máquina de fabricación de chips más avanzada del mundo muestra una complejidad y tecnología increíbles.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>
+</div>
+</nav>
+    <!-- Agrega el enlace a Bootstrap JS y jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
